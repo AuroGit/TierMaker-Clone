@@ -232,7 +232,7 @@ const clearTier = ()=>{
         zonasArr[zonasArr.length-1].appendChild(zona.children[0]);
     }
 }
-const deleteTier = ()=> tierToEdit.remove();
+const deleteTier = ()=> {tierToEdit.remove(); closeTierSettings();}
 const addTier = pos => {
     switch (pos) {
         case "above":
