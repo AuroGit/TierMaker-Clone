@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>TierMaker Clone</title>
+
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <script>
+        window.indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB;
+        window.IDBTransaction = window.IDBTransaction || window.webkitIDBTransaction || window.msIDBTransaction;
+        window.IDBKeyRange = window.IDBKeyRange || window.webkitIDBKeyRange || window.msIDBKeyRange;
+        if (!window.indexedDB) {
+            window.alert("Su navegador no soporta una versión estable de indexedDB. Tal y como las características no serán validas");
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <a><img src="./assets/logo.svg" alt=""></a>
+    </header>
+
+    <div class="container">
+        <ul id="categories"></ul>
+    </div>
+    <button><h3><a href="./customize.html">Crear Nueva Plantilla</a></h3></button>
+
+    <script src="./js/tierDB.js" type="module"></script>
+</body>
+</html>

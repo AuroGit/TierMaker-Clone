@@ -1,0 +1,342 @@
+[
+    {
+        "category": "Videojuegos",
+        "tierlists": [
+            {
+                "title": "Clases de Dark Souls 1",
+                "cover": "./assets/images/covers/dark-souls.png",
+                "tierRowsLabels": [
+                    {"color": "red", "label": "S"}, 
+                    {"color": "orange", "label": "A"}, 
+                    {"color": "yellow", "label": "B"}, 
+                    {"color": "lime", "label": "C"}, 
+                    {"color": "green", "label": "D"}
+                ],
+                "imgOrientation": "square",
+                "images": [
+                    "./assets/images/videojuegos/darkSouls/bandido.png",
+                    "./assets/images/videojuegos/darkSouls/caballero.png",
+                    "./assets/images/videojuegos/darkSouls/cazador.png",
+                    "./assets/images/videojuegos/darkSouls/clerigo.png",
+                    "./assets/images/videojuegos/darkSouls/guerrero.png",
+                    "./assets/images/videojuegos/darkSouls/hechicero.png",
+                    "./assets/images/videojuegos/darkSouls/ladron.png",
+                    "./assets/images/videojuegos/darkSouls/marginado.png",
+                    "./assets/images/videojuegos/darkSouls/piromantico.png",
+                    "./assets/images/videojuegos/darkSouls/vagabundo.png"
+                ]
+            },
+            {
+                "title": "Saga Final Fantasy",
+                "cover": "./assets/images/covers/final-fantasy.png",
+                "tierRowsLabels": [
+                    {"color": "red", "label": "S"}, 
+                    {"color": "orange", "label": "A"}, 
+                    {"color": "yellow", "label": "B"}, 
+                    {"color": "lime", "label": "C"}, 
+                    {"color": "green", "label": "D"}
+                ],
+                "imgOrientation": "landscape",
+                "images": [
+                    "./assets/images/videojuegos/finalFantasy/final-fantasy-1.png",
+                    "./assets/images/videojuegos/finalFantasy/final-fantasy-2.png",
+                    "./assets/images/videojuegos/finalFantasy/final-fantasy-3.png",
+                    "./assets/images/videojuegos/finalFantasy/final-fantasy-4.png",
+                    "./assets/images/videojuegos/finalFantasy/final-fantasy-5.png",
+                    "./assets/images/videojuegos/finalFantasy/final-fantasy-6.png",
+                    "./assets/images/videojuegos/finalFantasy/final-fantasy-7.png",
+                    "./assets/images/videojuegos/finalFantasy/final-fantasy-8.png",
+                    "./assets/images/videojuegos/finalFantasy/final-fantasy-9.png",
+                    "./assets/images/videojuegos/finalFantasy/final-fantasy-10.png",
+                    "./assets/images/videojuegos/finalFantasy/final-fantasy-15.png"
+                ]
+            },
+            {
+                "title": "Protagonistas de la saga Assassins Creed",
+                "cover": "./assets/images/covers/assassins-creed.png",
+                "tierRowsLabels": [
+                    {"color": "red", "label": "S"}, 
+                    {"color": "orange", "label": "A"}, 
+                    {"color": "yellow", "label": "B"}, 
+                    {"color": "lime", "label": "C"}, 
+                    {"color": "green", "label": "D"}
+                ],
+                "imgOrientation": "square",
+                "images": [
+                    "./assets/images/videojuegos/assassinsCreed/altair.png",
+                    "./assets/images/videojuegos/assassinsCreed/arno.png",
+                    "./assets/images/videojuegos/assassinsCreed/aveline.png",
+                    "./assets/images/videojuegos/assassinsCreed/bayek.png",
+                    "./assets/images/videojuegos/assassinsCreed/connor.png",
+                    "./assets/images/videojuegos/assassinsCreed/desmond.png",
+                    "./assets/images/videojuegos/assassinsCreed/edward.png",
+                    "./assets/images/videojuegos/assassinsCreed/eivor.png",
+                    "./assets/images/videojuegos/assassinsCreed/evie.png",
+                    "./assets/images/videojuegos/assassinsCreed/ezio.png",
+                    "./assets/images/videojuegos/assassinsCreed/jacob.png",
+                    "./assets/images/videojuegos/assassinsCreed/kassandra.png",
+                    "./assets/images/videojuegos/assassinsCreed/shay.png"
+                ]
+            }
+        ]
+    },
+
+    {
+        "category": "Música",
+        "tierlists": [
+            {
+                "title": "Discos de Estopa",
+                "cover": "./assets/images/covers/estopa.png",
+                "tierRowsLabels": [
+                    {"color": "red", "label": "S"}, 
+                    {"color": "orange", "label": "A"}, 
+                    {"color": "yellow", "label": "B"}, 
+                    {"color": "lime", "label": "C"}, 
+                    {"color": "green", "label": "D"}
+                ],
+                "imgOrientation": "square",
+                "images": [
+                    "./assets/images/musica/estopa/estopa.png",
+                    "./assets/images/musica/estopa/destrangis.png",
+                    "./assets/images/musica/estopa/calle-tuya.png",
+                    "./assets/images/musica/estopa/voces-ultrarumba.png",
+                    "./assets/images/musica/estopa/allenrok.png",
+                    "./assets/images/musica/estopa/estopa-2-0.png",
+                    "./assets/images/musica/estopa/rumba-desconocido.png",
+                    "./assets/images/musica/estopa/fuego.png"
+                ]
+            },
+            {
+                "title": "Grupos de Punk-Rock/Pop-Punk",
+                "cover": "./assets/images/covers/punk.png",
+                "tierRowsLabels": [
+                    {"color": "red", "label": "S"}, 
+                    {"color": "orange", "label": "A"}, 
+                    {"color": "yellow", "label": "B"}, 
+                    {"color": "lime", "label": "C"}, 
+                    {"color": "green", "label": "D"}
+                ],
+                "imgOrientation": "square",
+                "images": [
+                    "./assets/images/musica/punk/avril-lavigne.png",
+                    "./assets/images/musica/punk/bad-religion.png",
+                    "./assets/images/musica/punk/billy-talent.png",
+                    "./assets/images/musica/punk/blink-182.png",
+                    "./assets/images/musica/punk/gob.png",
+                    "./assets/images/musica/punk/good-charlotte.png",
+                    "./assets/images/musica/punk/green-day.png",
+                    "./assets/images/musica/punk/mxpx.png",
+                    "./assets/images/musica/punk/offspring.png",
+                    "./assets/images/musica/punk/simple-plan.png",
+                    "./assets/images/musica/punk/sugarcult.png",
+                    "./assets/images/musica/punk/sum-41.png"
+                ]
+            },
+            {
+                "title": "Mejores Voces",
+                "cover": "./assets/images/covers/singers.png",
+                "tierRowsLabels": [
+                    {"color": "red", "label": "S"}, 
+                    {"color": "orange", "label": "A"}, 
+                    {"color": "yellow", "label": "B"}, 
+                    {"color": "lime", "label": "C"}, 
+                    {"color": "green", "label": "D"}
+                ],
+                "imgOrientation": "square",
+                "images": [
+                    "./assets/images/musica/singers/amy-lee.png",
+                    "./assets/images/musica/singers/anastacia.png",
+                    "./assets/images/musica/singers/ariana-grande.png",
+                    "./assets/images/musica/singers/axel-rose.png",
+                    "./assets/images/musica/singers/bon-jovi.png",
+                    "./assets/images/musica/singers/celine-dion.png",
+                    "./assets/images/musica/singers/chester-benington.png",
+                    "./assets/images/musica/singers/christina-aguilera.png",
+                    "./assets/images/musica/singers/dolores-oriordan.png",
+                    "./assets/images/musica/singers/elton-john.png",
+                    "./assets/images/musica/singers/freddie-mercury.png",
+                    "./assets/images/musica/singers/janice-joplin.png",
+                    "./assets/images/musica/singers/jim-morrison.png",
+                    "./assets/images/musica/singers/mariah-carey.png",
+                    "./assets/images/musica/singers/michael-jackson.png",
+                    "./assets/images/musica/singers/phil-collins.png"
+                ]
+            }
+        ]
+    },
+
+    {
+        "category": "Series",
+        "tierlists": [
+            {
+                "title": "Series de ambientación medieval",
+                "cover": "./assets/images/covers/medieval.png",
+                "tierRowsLabels": [
+                    {"color": "red", "label": "S"}, 
+                    {"color": "orange", "label": "A"}, 
+                    {"color": "yellow", "label": "B"}, 
+                    {"color": "lime", "label": "C"}, 
+                    {"color": "green", "label": "D"}
+                ],
+                "imgOrientation": "landscape",
+                "images": [
+                    "./assets/images/series/medieval/anillos-poder.png",
+                    "./assets/images/series/medieval/camelot.png",
+                    "./assets/images/series/medieval/casa-dragon.png",
+                    "./assets/images/series/medieval/juego-tronos.png",
+                    "./assets/images/series/medieval/last-kingdom.png",
+                    "./assets/images/series/medieval/valhalla.png",
+                    "./assets/images/series/medieval/vikingos.png",
+                    "./assets/images/series/medieval/witcher.png"
+                ]
+            },
+            {
+                "title": "Personajes de Vikingos",
+                "cover": "./assets/images/covers/vikingos.png",
+                "tierRowsLabels": [
+                    {"color": "red", "label": "S"}, 
+                    {"color": "orange", "label": "A"}, 
+                    {"color": "yellow", "label": "B"}, 
+                    {"color": "lime", "label": "C"}, 
+                    {"color": "green", "label": "D"}
+                ],
+                "imgOrientation": "circle",
+                "images": [
+                    "./assets/images/series/vikingos/aethelwulf.png",
+                    "./assets/images/series/vikingos/astrid.png",
+                    "./assets/images/series/vikingos/athelstan.png",
+                    "./assets/images/series/vikingos/bjorn.png",
+                    "./assets/images/series/vikingos/egbert.png",
+                    "./assets/images/series/vikingos/floki.png",
+                    "./assets/images/series/vikingos/freydis.png",
+                    "./assets/images/series/vikingos/gunhild.png",
+                    "./assets/images/series/vikingos/harald.png",
+                    "./assets/images/series/vikingos/heahmund.png",
+                    "./assets/images/series/vikingos/hvitserk.png",
+                    "./assets/images/series/vikingos/ivar.png",
+                    "./assets/images/series/vikingos/judith.png",
+                    "./assets/images/series/vikingos/kjetill.png",
+                    "./assets/images/series/vikingos/kwenthrith.png",
+                    "./assets/images/series/vikingos/lagertha.png",
+                    "./assets/images/series/vikingos/othere.png",
+                    "./assets/images/series/vikingos/ragnar.png",
+                    "./assets/images/series/vikingos/rollo.png",
+                    "./assets/images/series/vikingos/seid.png",
+                    "./assets/images/series/vikingos/sigurd.png",
+                    "./assets/images/series/vikingos/torvi.png",
+                    "./assets/images/series/vikingos/ubbe.png"
+                ]
+            },
+            {
+                "title": "Mejores Shonen",
+                "cover": "./assets/images/covers/shonen.png",
+                "tierRowsLabels": [
+                    {"color": "red", "label": "S"}, 
+                    {"color": "orange", "label": "A"}, 
+                    {"color": "yellow", "label": "B"}, 
+                    {"color": "lime", "label": "C"}, 
+                    {"color": "green", "label": "D"}
+                ],
+                "imgOrientation": "portrait",
+                "images": [
+                    "./assets/images/series/shonen/assassination-classroom.png",
+                    "./assets/images/series/shonen/attack-on-titan.png",
+                    "./assets/images/series/shonen/demon-slayer.png",
+                    "./assets/images/series/shonen/dr-stone.png",
+                    "./assets/images/series/shonen/dragon-ball.png",
+                    "./assets/images/series/shonen/fullmetal-alchemist.png",
+                    "./assets/images/series/shonen/hunter.png",
+                    "./assets/images/series/shonen/my-hero-academia.png",
+                    "./assets/images/series/shonen/naruto.png",
+                    "./assets/images/series/shonen/one-punch-man.png"
+                ]
+            }
+        ]
+    },
+
+    {
+        "category": "Cine",
+        "tierlists": [
+            {
+                "title": "Películas de la saga Harry Potter",
+                "cover": "./assets/images/covers/harry-potter.png",
+                "tierRowsLabels": [
+                    {"color": "red", "label": "S"}, 
+                    {"color": "orange", "label": "A"}, 
+                    {"color": "yellow", "label": "B"}, 
+                    {"color": "lime", "label": "C"}, 
+                    {"color": "green", "label": "D"}
+                ],
+                "imgOrientation": "portrait",
+                "images": [
+                    "./assets/images/cine/harryPotter/harry-potter-piedra-filosofal.png",
+                    "./assets/images/cine/harryPotter/harry-potter-camara-secreta.png",
+                    "./assets/images/cine/harryPotter/harry-potter-prisionero-azkaban.png",
+                    "./assets/images/cine/harryPotter/harry-potter-caliz-fuego.png",
+                    "./assets/images/cine/harryPotter/harry-potter-orden-fenix.png",
+                    "./assets/images/cine/harryPotter/harry-potter-principe-mestizo.png",
+                    "./assets/images/cine/harryPotter/harry-potter-reliquias-parte-1.png",
+                    "./assets/images/cine/harryPotter/harry-potter-reliquias-parte-2.png"
+                ]
+            },
+            {
+                "title": "Top Vengadores",
+                "cover": "./assets/images/covers/marvel.png",
+                "tierRowsLabels": [
+                    {"color": "red", "label": "S"}, 
+                    {"color": "orange", "label": "A"}, 
+                    {"color": "yellow", "label": "B"}, 
+                    {"color": "lime", "label": "C"}, 
+                    {"color": "green", "label": "D"}
+                ],
+                "imgOrientation": "square",
+                "images": [
+                    "./assets/images/cine/marvel/ant-man.png",
+                    "./assets/images/cine/marvel/black-panther.png",
+                    "./assets/images/cine/marvel/black-widow.png",
+                    "./assets/images/cine/marvel/capitan-america.png",
+                    "./assets/images/cine/marvel/capitana-marvel.png",
+                    "./assets/images/cine/marvel/dr-strange.png",
+                    "./assets/images/cine/marvel/falcon.png",
+                    "./assets/images/cine/marvel/guardianes.png",
+                    "./assets/images/cine/marvel/hawkeye.png",
+                    "./assets/images/cine/marvel/hulk.png",
+                    "./assets/images/cine/marvel/iron-man.png",
+                    "./assets/images/cine/marvel/scarlet-witch.png",
+                    "./assets/images/cine/marvel/spiderman.png",
+                    "./assets/images/cine/marvel/thor.png",
+                    "./assets/images/cine/marvel/vision.png",
+                    "./assets/images/cine/marvel/war-machine.png",
+                    "./assets/images/cine/marvel/wasp.png",
+                    "./assets/images/cine/marvel/winter-soldier.png"
+                ]
+            },
+            {
+                "title": "Mascotas Disney",
+                "cover": "./assets/images/covers/disney.png",
+                "tierRowsLabels": [
+                    {"color": "red", "label": "S"}, 
+                    {"color": "orange", "label": "A"}, 
+                    {"color": "yellow", "label": "B"}, 
+                    {"color": "lime", "label": "C"}, 
+                    {"color": "green", "label": "D"}
+                ],
+                "imgOrientation": "square",
+                "images": [
+                    "./assets/images/cine/disney/abu.png",
+                    "./assets/images/cine/disney/aristogatos.png",
+                    "./assets/images/cine/disney/dalmatas.png",
+                    "./assets/images/cine/disney/dante.png",
+                    "./assets/images/cine/disney/figaro-cleo.png",
+                    "./assets/images/cine/disney/iago.png",
+                    "./assets/images/cine/disney/meeko.png",
+                    "./assets/images/cine/disney/mushu.png",
+                    "./assets/images/cine/disney/pascal.png",
+                    "./assets/images/cine/disney/pegaso.png",
+                    "./assets/images/cine/disney/pluto.png",
+                    "./assets/images/cine/disney/stitch.png"
+                ]
+            }
+        ]
+    }
+]

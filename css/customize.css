@@ -1,0 +1,82 @@
+#custom-template-form{
+    display: flex;
+    flex-direction: column;
+}
+#custom-template-form input:not(#new-cat), #custom-template-form select{
+    font-size: 1rem;
+    padding: 10px;
+    border: solid 1px #ccc;
+}
+#custom-template-form input:not(#new-cat){width: 100%;}
+#custom-template-form label, #show-extra-rows{
+    font-size: 1.4rem;
+    display: block;
+    margin-block: 10px;
+}
+#custom-template-form input[type="file"]{margin-bottom: 10px;}
+#custom-template-form p{margin-bottom: 10px;}
+#custom-template-form>div{margin-top: 50px;}
+#custom-template-form div:has(>#new-cat), #custom-template-form div#new-cat{display: flex;}
+#custom-template-form div#new-cat input{
+    width: auto;
+    border: none;
+    border-bottom: solid 1px #ccc;
+    margin-left: 10px;
+}
+#custom-template-form div#new-cat input:focus-visible{
+    outline: none;
+    border-bottom: solid 2px #000;
+}
+#custom-template-form div#new-cat>button{
+    margin: 0;
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+}
+
+#cover img, #set img{
+    display: inline-block;
+    object-fit: cover;
+    object-position: center;
+}
+
+.extra-rows{
+    display: flex;
+    flex-wrap: wrap;
+    height: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+#custom-template-form #show-extra-rows{cursor: pointer;}
+#custom-template-form button{
+    margin-block: 50px;
+    padding: 10px 25px;
+    align-self: center;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity .2s;
+}
+#custom-template-form button:hover{opacity: .75;}
+#custom-template-form button.disabled{
+    opacity: .5;
+    background: none;
+    border: solid 2px #888;
+    color: #000;
+    cursor: default;
+}
+
+/* Aux */
+.open{height: 250px;}
+
+[data-valid-name]{
+    color: #f00;
+    font-weight: 500;
+    margin-top: 5px;
+}
+[data-valid-name='true']{visibility: hidden;}
+
+.square{width: 100px; height: 100px;}
+.landscape{width: 150px; height: 100px;}
+.portrait{width: 100px; height: 150px;}
+.circle{width: 100px; height: 100px; border-radius: 50%;}

@@ -1,0 +1,8 @@
+@media screen and (min-width:461px) {
+    #categories li:not(:has(>ul)), 
+    .container>.category li{width: 200px;}
+}
+@media screen and (max-width:460px) {
+    #categories li:not(:has(>ul)), 
+    .container>.category li{width: 100%;}
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiermaker Clone - </title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="./index.html"><img src="./assets/logo.svg" alt=""></a>
+    </header>
+
+    <div class="container">
+        <h1 id="tier-title"></h1>
+        <main>
+            <div class="tier-container"></div>
+            <div class="char-container zona"></div>
+            
+            <hr>
+            <span id="reset" onclick="window.location.reload()">Reset</span>
+        </main>
+    </div>
+
+    <div id="settings-overlay" class="d-none">
+        <div id="settings-panel">
+            <span id="close"><b>&#10005;</b></span>
+            <h2>Elige el color de la etiqueta</h2>
+            <ul>
+                <li class="red" data-value="red"></li>
+                <li class="orange" data-value="orange"></li>
+                <li class="orange-yellow" data-value="orange-yellow"></li>
+                <li class="yellow" data-value="yellow"></li>
+                <li class="lime" data-value="lime"></li>
+                <li class="green" data-value="green"></li>
+                <li class="cyan" data-value="cyan"></li>
+                <li class="blue" data-value="blue"></li>
+                <li class="dark-blue" data-value="dark-blue"></li>
+                <li class="pink" data-value="pink"></li>
+                <li class="dark-pink" data-value="dark-pink"></li>
+                <li class="black" data-value="black"></li>
+                <li class="grey" data-value="grey"></li>
+                <li class="light-grey" data-value="light-grey"></li>
+                <li class="white" data-value="white"></li>
+            </ul>
+            <h2>Edita el texto de la etiqueta</h2>
+            <textarea maxlength="50"></textarea>
+            <div>
+                <button id="delete-tier">Eliminar fila</button>
+                <button id="clear-tier">Limpiar fila</button>
+            </div>
+            <div>
+                <button id="add-tier-above">Añadir fila encima</button>
+                <button id="add-tier-below">Añadir fila debajo</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/tierlistBuild.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+@import url("./tierlistStyle.css");
+@import url("./customize.css");
+@import url("./responsive.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{display: block;}
+
+body{
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+body:has( .container>ul#categories), body:has( .category){
+    display: flex;
+    flex-direction: column;
+}
+
+h2{font-size: 2rem;}
+ul{list-style: none;}
+a{text-decoration: none; color: #000;}
+a:visited{color: initial;}
+
+/* Header */
+header{
+    color: #fff;
+    background-color: #111;
+    padding: 15px;
+}
+header img{width: 250px;}
+header a{
+    font-size: xx-large;
+    text-decoration: none;
+}
+header a:visited{color: #fff;}
+
+.container{
+    max-width: 900px;
+    margin-inline: auto;
+    padding: 25px;
+    padding-top: 100px;
+}
+
+/* Categories */
+.category{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+#categories>li{margin-bottom: 50px;}
+#categories li:not(:has(>ul)), .container>.category li{
+    display: inline-block;
+    position: relative;
+    max-width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 5px;
+}
+#categories li:not(:has(>ul)) a, .category a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.container>.category{min-width: 200px;}
+.category span{
+    display: block;
+    position: absolute;
+    width: 100%;
+    background-color: #080808;
+    color: #fff;
+    text-align: center;
+    line-height: 1.2rem;
+    padding: 5px;
+}
+.category li:not(.custom-item) span{bottom: 0;}
+.category .custom-item{background-color: #080808;}
+.category .custom-item span{
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+}
+
+.container+button{
+    margin: 50px;
+    padding: 10px 25px;
+    align-self: center;
+    background-color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity .2s;
+}
+.container+button a{color: #fff;}
+.container+button:hover{opacity: .75;}
+
+/* Aux */
+.d-none{display: none!important;}
+
+/* Colores */
+.red{background-color: #ff7f7f;}
+.orange{background-color: #ffbf7f;}
+.orange-yellow{background-color: #ffdf7f;}
+.yellow{background-color: #ffff7f;}
+.lime{background-color: #bfff7f;}
+.green{background-color: #7fff7f;}
+.cyan{background-color: #7fffff;}
+.blue{background-color: #7fbfff;}
+.dark-blue{background-color: #7f7fff;}
+.pink{background-color: #ff7fff;}
+.dark-pink{background-color: #bf7fbf;}
+.black{background-color: #3b3b3b;}
+.grey{background-color: #858585;}
+.light-grey{background-color: #cfcfcf;}
+.white{background-color: #f7f7f7;}
