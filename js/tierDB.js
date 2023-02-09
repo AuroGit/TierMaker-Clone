@@ -1,7 +1,7 @@
 const IDBRequest = indexedDB.open("tierDB",1);
 
 IDBRequest.onsuccess = ()=>{
-    if (location.pathname.includes("index") || location.pathname == '/') indexBuild();
+    if (location.pathname.includes("index") || location.pathname == '/TierMaker-Clone/') indexBuild();
     console.log("Base de datos 'tierDB' abierta correctamente.")
 };
 IDBRequest.onerror = (e)=>{
