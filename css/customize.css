@@ -35,8 +35,10 @@
 
 #cover img, #set img{
     display: inline-block;
-    object-fit: cover;
-    object-position: center;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
 }
 
 .extra-rows{
