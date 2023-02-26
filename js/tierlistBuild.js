@@ -115,12 +115,12 @@ const tierlistBuild = ()=>{
             img.addEventListener("dragstart", (e)=>{
                 draggingNode = e.target;
                 e.target.classList.toggle("moving");
-                document.querySelectorAll(".tier-title").forEach(elem=>elem.contrntEditable = false);
+                document.querySelectorAll(".tier-title").forEach(elem=>elem.contentEditable = false);
             });
             img.addEventListener("dragend", (e)=>{
                 e.target.classList.toggle("moving");
                 draggingNode = undefined;
-                document.querySelectorAll(".tier-title").forEach(elem=>elem.contrntEditable = true);
+                document.querySelectorAll(".tier-title").forEach(elem=>elem.contentEditable = true);
             });
         });
     };
